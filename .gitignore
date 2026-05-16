@@ -1,0 +1,36 @@
+# 环境变量文件（包含敏感信息）
+.env
+
+# Solidity 编译产物
+# *.abi
+# *.bin
+!task2/contract/.gitkeep
+
+# Go 绑定代码生成文件
+# task2/bindings/*.go
+!task2/bindings/.gitkeep
+
+# Go 编译产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+# *.out
+
+# 依赖目录
+vendor/
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# 日志文件
+*.log
