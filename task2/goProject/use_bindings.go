@@ -14,7 +14,7 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethclient"
 
-	counter "go-homework5/task2/bindings"
+	counter "go-homework5/task2/foundryProject/bindings"
 )
 
 func main() {
